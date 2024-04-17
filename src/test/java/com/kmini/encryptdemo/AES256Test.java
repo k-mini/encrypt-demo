@@ -18,7 +18,7 @@ class AES256Test {
 
     // aes256 테스트
     @Test
-    void aes256Encode() throws Exception {
+    void aes256Encrypt() throws Exception {
         // 암호화 할 문자열
         String plainText = "this is plainText";
 
@@ -35,7 +35,7 @@ class AES256Test {
     }
 
     @Test
-    void aes256Decode() throws Exception {
+    void aes256Decrypt() throws Exception {
 
         // 암호화 할 문자열
         String plainText = "this is plainText222";
